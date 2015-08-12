@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E26F03491B7BADC10052BB29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F03481B7BADC10052BB29 /* AppDelegate.swift */; };
+		E26F034B1B7BADC10052BB29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F034A1B7BADC10052BB29 /* ViewController.swift */; };
+		E26F034E1B7BADC10052BB29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26F034C1B7BADC10052BB29 /* Main.storyboard */; };
+		E26F03501B7BADC10052BB29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26F034F1B7BADC10052BB29 /* Images.xcassets */; };
+		E26F03531B7BADC10052BB29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E26F03511B7BADC10052BB29 /* LaunchScreen.xib */; };
+		E26F035F1B7BADC10052BB29 /* LSFoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F035E1B7BADC10052BB29 /* LSFoodTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E26F03591B7BADC10052BB29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E26F033B1B7BADC10052BB29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E26F03421B7BADC10052BB29;
+			remoteInfo = LSFood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E26F03431B7BADC10052BB29 /* LSFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26F03471B7BADC10052BB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26F03481B7BADC10052BB29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E26F034A1B7BADC10052BB29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E26F034D1B7BADC10052BB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E26F034F1B7BADC10052BB29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E26F03521B7BADC10052BB29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E26F03581B7BADC10052BB29 /* LSFoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSFoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E26F035D1B7BADC10052BB29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26F035E1B7BADC10052BB29 /* LSFoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LSFoodTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E26F03401B7BADC10052BB29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26F03551B7BADC10052BB29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E26F033A1B7BADC10052BB29 = {
+			isa = PBXGroup;
+			children = (
+				E26F03451B7BADC10052BB29 /* LSFood */,
+				E26F035B1B7BADC10052BB29 /* LSFoodTests */,
+				E26F03441B7BADC10052BB29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E26F03441B7BADC10052BB29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E26F03431B7BADC10052BB29 /* LSFood.app */,
+				E26F03581B7BADC10052BB29 /* LSFoodTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E26F03451B7BADC10052BB29 /* LSFood */ = {
+			isa = PBXGroup;
+			children = (
+				E26F03481B7BADC10052BB29 /* AppDelegate.swift */,
+				E26F034A1B7BADC10052BB29 /* ViewController.swift */,
+				E26F034C1B7BADC10052BB29 /* Main.storyboard */,
+				E26F034F1B7BADC10052BB29 /* Images.xcassets */,
+				E26F03511B7BADC10052BB29 /* LaunchScreen.xib */,
+				E26F03461B7BADC10052BB29 /* Supporting Files */,
+			);
+			path = LSFood;
+			sourceTree = "<group>";
+		};
+		E26F03461B7BADC10052BB29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E26F03471B7BADC10052BB29 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E26F035B1B7BADC10052BB29 /* LSFoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				E26F035E1B7BADC10052BB29 /* LSFoodTests.swift */,
+				E26F035C1B7BADC10052BB29 /* Supporting Files */,
+			);
+			path = LSFoodTests;
+			sourceTree = "<group>";
+		};
+		E26F035C1B7BADC10052BB29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E26F035D1B7BADC10052BB29 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E26F03421B7BADC10052BB29 /* LSFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26F03621B7BADC10052BB29 /* Build configuration list for PBXNativeTarget "LSFood" */;
+			buildPhases = (
+				E26F033F1B7BADC10052BB29 /* Sources */,
+				E26F03401B7BADC10052BB29 /* Frameworks */,
+				E26F03411B7BADC10052BB29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSFood;
+			productName = LSFood;
+			productReference = E26F03431B7BADC10052BB29 /* LSFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E26F03571B7BADC10052BB29 /* LSFoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E26F03651B7BADC10052BB29 /* Build configuration list for PBXNativeTarget "LSFoodTests" */;
+			buildPhases = (
+				E26F03541B7BADC10052BB29 /* Sources */,
+				E26F03551B7BADC10052BB29 /* Frameworks */,
+				E26F03561B7BADC10052BB29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E26F035A1B7BADC10052BB29 /* PBXTargetDependency */,
+			);
+			name = LSFoodTests;
+			productName = LSFoodTests;
+			productReference = E26F03581B7BADC10052BB29 /* LSFoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E26F033B1B7BADC10052BB29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Demandmedia;
+				TargetAttributes = {
+					E26F03421B7BADC10052BB29 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					E26F03571B7BADC10052BB29 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E26F03421B7BADC10052BB29;
+					};
+				};
+			};
+			buildConfigurationList = E26F033E1B7BADC10052BB29 /* Build configuration list for PBXProject "LSFood" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E26F033A1B7BADC10052BB29;
+			productRefGroup = E26F03441B7BADC10052BB29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E26F03421B7BADC10052BB29 /* LSFood */,
+				E26F03571B7BADC10052BB29 /* LSFoodTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E26F03411B7BADC10052BB29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26F034E1B7BADC10052BB29 /* Main.storyboard in Resources */,
+				E26F03531B7BADC10052BB29 /* LaunchScreen.xib in Resources */,
+				E26F03501B7BADC10052BB29 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26F03561B7BADC10052BB29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E26F033F1B7BADC10052BB29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26F034B1B7BADC10052BB29 /* ViewController.swift in Sources */,
+				E26F03491B7BADC10052BB29 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26F03541B7BADC10052BB29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E26F035F1B7BADC10052BB29 /* LSFoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E26F035A1B7BADC10052BB29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E26F03421B7BADC10052BB29 /* LSFood */;
+			targetProxy = E26F03591B7BADC10052BB29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E26F034C1B7BADC10052BB29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26F034D1B7BADC10052BB29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E26F03511B7BADC10052BB29 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E26F03521B7BADC10052BB29 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E26F03601B7BADC10052BB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E26F03611B7BADC10052BB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E26F03631B7BADC10052BB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E26F03641B7BADC10052BB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LSFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E26F03661B7BADC10052BB29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LSFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSFood.app/LSFood";
+			};
+			name = Debug;
+		};
+		E26F03671B7BADC10052BB29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LSFoodTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSFood.app/LSFood";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E26F033E1B7BADC10052BB29 /* Build configuration list for PBXProject "LSFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26F03601B7BADC10052BB29 /* Debug */,
+				E26F03611B7BADC10052BB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E26F03621B7BADC10052BB29 /* Build configuration list for PBXNativeTarget "LSFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26F03631B7BADC10052BB29 /* Debug */,
+				E26F03641B7BADC10052BB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E26F03651B7BADC10052BB29 /* Build configuration list for PBXNativeTarget "LSFoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26F03661B7BADC10052BB29 /* Debug */,
+				E26F03671B7BADC10052BB29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E26F033B1B7BADC10052BB29 /* Project object */;
+}
